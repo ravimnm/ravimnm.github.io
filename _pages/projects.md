@@ -27,7 +27,7 @@ Enterprise-grade audit logging platform featuring multi-tenant isolation, JWT au
 - SHA-256 Hash Chaining
 - Docker
 
-➡️ **View Project:** [/projects/smtap/](/projects/smtap/)
+➡️ **View Project:** [/projects/smtap/](/projects/Secure-Multi-Tenant-Audit-Platform/)
 
 ---
 
