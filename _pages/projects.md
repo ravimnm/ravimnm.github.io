@@ -7,138 +7,128 @@ author_profile: true
 
 # Projects
 
-A collection of software engineering, cybersecurity, AI, and backend projects. These projects emphasize scalable architecture, secure system design, distributed systems, and practical engineering.
+This portfolio showcases projects in backend engineering, distributed systems, cybersecurity, artificial intelligence, and graph machine learning. Each project focuses on solving practical engineering problems using production-oriented design principles, secure architectures, and modern software development practices.
 
 ---
 
 ## Featured Projects
 
-### 🛡️ SMTAP – Secure Multi-Tenant Audit Platform
+### 🛡️ Secure Multi-Tenant Audit Platform (SMTAP)
 
-Enterprise-grade audit logging platform featuring multi-tenant isolation, JWT authentication, RBAC, tamper-evident hash chaining, investigation timelines, and compliance reporting.
+A distributed audit platform for centralized enterprise logging featuring multi-tenant isolation, JWT authentication, RBAC, tamper-evident audit trails, compliance reporting, investigation timelines, and agent-based log collection.
 
-**Highlights**
+**Tech Stack**
 
-- Spring Boot
-- PostgreSQL
-- Redis
-- JWT Authentication
-- RBAC
-- SHA-256 Hash Chaining
-- Docker
+`Java` • `Spring Boot` • `PostgreSQL` • `Redis` • `Docker` • `Kubernetes`
 
-➡️ **View Project:** [/projects/smtap/](/projects/Secure-Multi-Tenant-Audit-Platform.md/)
+➡️ **Read Case Study:** [/projects/smtap/](/projects/Secure-Multi-Tenant-Audit-Platform.md/)
 
 ---
 
-### 💳 Secure Distributed Payment Platform
+### 💳 Secure Finance Backend
 
-Distributed payment processing backend supporting secure transactions, idempotency, double-entry ledger architecture, Redis caching, asynchronous processing, and high-throughput REST APIs.
+A production-style financial transaction backend implementing JWT authentication, Role-Based Access Control (RBAC), transaction analytics, MongoDB aggregation pipelines, pagination, structured exception handling, and rate limiting.
 
-**Highlights**
+**Tech Stack**
 
-- Spring Boot
-- PostgreSQL
-- Redis
-- Kafka
-- Docker
-- JWT
-- Payment Processing
+`Java` • `Spring Boot` • `Spring Security` • `MongoDB` • `JWT`
 
-➡️ *(Coming Soon)*
-
----
-
-### 🔗 Blockchain Threat Intelligence Platform
-
-Graph Neural Network-based blockchain analytics platform for illicit wallet detection using GraphSAGE, adaptive risk scoring, feature engineering, and explainable AI.
-
-**Highlights**
-
-- Python
-- PyTorch Geometric
-- GraphSAGE
-- NetworkX
-- Machine Learning
-- Explainable AI
-
-➡️ *(Coming Soon)*
+➡️ **Read Case Study:** [/projects/secure-finance-backend/](/projects/Secure-Finance-Backend.md/)
 
 ---
 
 ### ☕ Java Runtime Security Agent (JRSA)
 
-Java instrumentation agent built using ByteBuddy to monitor runtime behavior, intercept sensitive operations, and demonstrate JVM instrumentation techniques.
+A Runtime Application Self-Protection (RASP) prototype that instruments JVM bytecode using the Java Instrumentation API and ByteBuddy to monitor runtime behavior and generate security telemetry without modifying application source code.
 
-**Highlights**
+**Tech Stack**
 
-- Java Agent
-- ByteBuddy
-- JVM Instrumentation
-- Runtime Security
+`Java` • `ByteBuddy` • `Java Instrumentation API`
 
-➡️ *(Coming Soon)*
+➡️ **Read Case Study:** [/projects/jrsa/](/projects/jrsa.md/)
+
+---
+
+### 🤖 AI-Based Log Investigation Platform
+
+A cyber-forensic platform that automates investigation of Windows, Linux, Network, and Web logs using machine learning, feature engineering, explainable AI, and MITRE ATT&CK mapping.
+
+**Tech Stack**
+
+`Python` • `Scikit-learn` • `SHAP` • `LIME`
+
+➡️ **Read Case Study:** [/projects/ai-log-investigation/](/projects/aiBasedCyberCommand.md/)
+
+---
+
+### 🔗 Adaptive Risk-Aware Graph Neural Network for Blockchain Wallet Risk Detection
+
+A graph-based blockchain intelligence platform that models cryptocurrency transaction networks using GraphSAGE, adaptive risk-aware learning, blockchain feature engineering, and explainable AI to identify illicit wallets.
+
+**Tech Stack**
+
+`Python` • `PyTorch` • `PyTorch Geometric` • `GraphSAGE`
+
+➡️ **Read Case Study:** [/projects/blockchain-wallet-risk-detection/](/projects/blockchian-wallet-risk-detection.md/)
 
 ---
 
 ### 🌐 Techzite Website
 
-Official website developed for RGUKT's national technical festival with responsive frontend design, event management features, and modern web technologies.
+Backend and frontend contributions to the official website of RGUKT's national technical festival, supporting online registrations and event management.
 
-**Highlights**
+**Tech Stack**
 
-- React
-- JavaScript
-- Responsive UI
-- Web Development
+`React` • `JavaScript` • `REST APIs`
 
-➡️ *(Coming Soon)*
+➡️ *(Documentation coming soon)*
 
 ---
 
-## Technology Stack
+# Technology Stack
 
-### Backend
+## Backend Engineering
 
 - Java
 - Spring Boot
 - Spring Security
-- Spring Data JPA
 - REST APIs
+- Spring Data JPA
 
-### Databases
+## Databases
 
 - PostgreSQL
-- MySQL
+- MongoDB
 - Redis
+- MySQL
 
-### Security
+## Security
 
-- JWT
+- JWT Authentication
 - RBAC
 - SHA-256
-- BCrypt
+- JVM Instrumentation
+- Audit Logging
 
-### DevOps
-
-- Docker
-- Git
-- GitHub
-
-### AI / ML
+## Artificial Intelligence
 
 - Python
 - PyTorch
+- PyTorch Geometric
 - Scikit-learn
 - Graph Neural Networks
+- SHAP
+- LIME
 
-### Cloud & Tools
+## DevOps & Tools
 
+- Docker
+- Kubernetes
+- Git
+- GitHub
 - Maven
-- Swagger / OpenAPI
-- IntelliJ IDEA
-- VS Code
+- Swagger/OpenAPI
 
 ---
 
-More projects are continuously being added as I explore backend engineering, distributed systems, AI, and cybersecurity.
+These projects reflect my interests in backend engineering, secure software systems, distributed architectures, AI-driven security analytics, and graph machine learning.
