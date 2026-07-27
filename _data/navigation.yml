@@ -2,17 +2,17 @@ main:
   - title: "Home"
     url: /
 
-  - title: "About"
-    url: /about/
-
   - title: "Projects"
     url: /projects/
 
-  - title: "Blog"
+  - title: "Posts"
     url: /year-archive/
 
-  - title: "Resume"
-    url: /resume/
+  - title: "Categories"
+    url: /categories/
 
-  - title: "Contact"
-    url: /contact/
+  - title: "Tags"
+    url: /tags/
+
+  - title: "About"
+    url: /about/
